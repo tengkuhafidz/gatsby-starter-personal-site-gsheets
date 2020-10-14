@@ -9,7 +9,7 @@ const Home = () => (
     <Layout>
       <div className="pt-16">
         <h1 className="text-5xl font-bold max-w-4xl">
-          Hey, I&#39;m Hafidz, an <span className="text-blue-400">app developer</span> living in Sunny Singapore.
+          Hi, I&#39;m Hafidz, an <span className="text-blue-400">app developer</span> living in Sunny Singapore.
         </h1>
         <p className="mt-4 text-3xl  max-w-4xl font-light">Here are some of my recent side projects</p>
         <div className="grid grid-cols-3 gap-6 pt-8 pb-4">
