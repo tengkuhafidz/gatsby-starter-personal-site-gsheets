@@ -19,9 +19,7 @@ const Home = () => (
               <i className="fas fa-external-link-alt mt-2"></i>
             </div>
             <p className="text-xl font-light mb-4 leading-tight">Create your own site with just Google Sheets</p>
-            <a href="#" className="font-light">
-              https://websheets.co
-            </a>
+            <p className="font-light">https://websheets.co</p>
           </div>
           <div className="p-6 hover:bg-blue-800 rounded-lg bg-blue-900 cursor-pointer">
             <div className="flex">
@@ -31,9 +29,7 @@ const Home = () => (
             <p className="text-xl font-light mb-4 leading-tight text-gray-">
               Check if the additives/e-codes are halal for consumption
             </p>
-            <a href="#" className="font-light">
-              https://halalecodescheck.com
-            </a>
+            <p className="font-light">https://halalecodescheck.com</p>
           </div>
           <div className="p-6 hover:bg-blue-800 rounded-lg bg-blue-900 cursor-pointer">
             <div className="flex">
@@ -41,9 +37,7 @@ const Home = () => (
               <i className="fas fa-external-link-alt mt-2"></i>
             </div>
             <p className="text-xl font-light mb-4 leading-tight">Watch Islamic content without distraction</p>
-            <a href="#" className="font-light">
-              https://fatihatv.com
-            </a>
+            <p className="font-light">https://fatihatv.com</p>
           </div>
         </div>
         <div className="flex">
