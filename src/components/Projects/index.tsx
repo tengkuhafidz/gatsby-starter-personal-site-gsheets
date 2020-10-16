@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import SingleProject from './single-projects'
 import { Project } from '../../utils/models'
+import BackToTop from '../back-to-top'
 
 const Projects = () => {
   const { allProjectsSheetsData } = useStaticQuery(graphql`
@@ -45,12 +46,19 @@ const Projects = () => {
     return filteredProjects.map((project) => <SingleProject project={project} key={project.id} />)
   }
 
+  const renderBackToTop = () => {
+    if (typeof window !== 'undefined') {
+      return <BackToTop />
+    }
+  }
+
   return (
     <div className="pb-16">
       <h1 className="text-5xl text-center">Side Projects</h1>
       <p className="text-xl text-center font-light">The things I do outside of my working hours to scratch my itch</p>
       <div className="text-center mt-4">{renderTypeFilters()}</div>
       <div className="grid md:grid-cols-4 gap-4 py-16">{renderProjects()}</div>
+      <BackToTop />
     </div>
   )
 }
