@@ -15,6 +15,9 @@ const Footer = () => (
       <a href="https://www.facebook.com/tengku.hafidz.1" className="ml-4 text-lg hover:text-blue-400">
         <i className="fab fa-facebook" />
       </a>
+      <a href="https://www.linkedin.com/in/tengku-hafidz/" className="ml-4 text-lg hover:text-blue-400">
+        <i className="fab fa-linkedin" />
+      </a>
       <a href="https://www.buymeacoffee.com/sohafidz" className="ml-4 text-lg hover:text-blue-400">
         <i className="fas fa-mug-hot" />
       </a>
