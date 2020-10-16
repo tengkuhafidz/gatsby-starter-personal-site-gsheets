@@ -1,3 +1,4 @@
+require('dotenv').config()
 /* eslint-disable @typescript-eslint/camelcase */
 module.exports = {
   siteMetadata: {
@@ -21,15 +22,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-source-google-sheets-flexible',
       options: {
-        name: `GatsbyTSTW`,
-        short_name: `GatsbyTSTW`,
-        start_url: `/`,
-        background_color: `#F7FAFC`,
-        theme_color: `#2B6CB0`,
-        display: `standalone`,
-        icon: `static/app-icon.png`, // This path is relative to the root of the site.
+        apiKey: process.env.GATSBY_GOOGLE_CREDENTIALS,
+        spreadsheetUrl: process.env.GATSBY_SHEET_URL,
+        tabName: 'projects',
+        cellRange: 'A1:F1000',
+        majorDimension: 'ROWS',
       },
     },
   ],

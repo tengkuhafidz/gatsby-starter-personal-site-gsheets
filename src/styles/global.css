@@ -17,3 +17,9 @@ h5,
 h6 {
   font-family: 'Poppins', sans-serif;
 }
+
+@layer base {
+  .nav-menu {
+    @apply ml-8 py-2;
+  }
+}

@@ -13,20 +13,20 @@ const Navbar = () => (
       </Link>
     </div>
     <div className="flex-grow"></div>
-    <div>
-      <Link to="/" className="ml-8 py-2 border-b-4 border-blue-400">
+    {/* <div>
+      <Link to="/" className="nav-menu border-b-4 border-blue-400">
         <span className="font-bold">01</span> home
       </Link>
-      <Link to="/" className="ml-8 hover:border-b-4 hover:border-gray-600">
+      <Link to="/" className="nav-menu">
         <span className="font-bold">02</span> hustles
       </Link>
-      <Link to="/" className="ml-8">
+      <Link to="/" className="nav-menu">
         <span className="font-bold">03</span> resources
       </Link>
-      <Link to="/" className="ml-8">
+      <Link to="/" className="nav-menu">
         <span className="font-bold">04</span> journal
       </Link>
-    </div>
+    </div> */}
     <div className="ml-8">
       <i className="fas fa-lightbulb text-2xl cursor-pointer hover:text-yellow-400"></i>
     </div>

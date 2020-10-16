@@ -1,15 +1,15 @@
 import React from 'react'
-import Home from '../components/Home'
 import Layout from '../components/Layouts'
+import Projects from '../components/Projects'
 import SEO from '../components/seo'
 
-const HomePage = () => (
+const ProjectsPage = () => (
   <div>
     <SEO />
     <Layout>
-      <Home />
+      <Projects />
     </Layout>
   </div>
 )
 
-export default HomePage
+export default ProjectsPage
