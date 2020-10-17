@@ -5,10 +5,7 @@ const Navbar = () => (
   <nav className="flex py-8">
     <div>
       <Link to="/" className="cursor-pointer">
-        <img
-          src="https://media.devlabs.academy/file/w_60/hafidz/profile-1.png"
-          className="rounded-full h-12 inline-block"
-        />
+        <img src="/app-icon.png" className="rounded-full h-12 inline-block" />
         <h6 className="inline-block ml-2 font-semibold">Tengku Hafidz</h6>
       </Link>
     </div>

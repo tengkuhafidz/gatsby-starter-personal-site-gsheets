@@ -30,7 +30,7 @@ const Home = () => {
         </div>
         <div
           className="p-6 hover:bg-blue-800 rounded-lg bg-blue-900 cursor-pointer"
-          onClick={() => handleClick('https://halalecodescheck.com')}
+          onClick={() => handleClick('https://ecodehalalcheck.com')}
         >
           <div className="flex">
             <h4 className="font-semibold text-xl md:text-2xl flex-grow">Halal Ecodes Check</h4>
@@ -39,7 +39,7 @@ const Home = () => {
           <p className="text-lg font-light mb-4 leading-tight text-gray-">
             Check if the additives/e-codes are halal for consumption
           </p>
-          <p className="font-light">https://halalecodescheck.com</p>
+          <p className="font-light">https://ecodehalalcheck.com</p>
         </div>
         <div
           className="p-6 hover:bg-blue-800 rounded-lg bg-blue-900 cursor-pointer"

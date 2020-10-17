@@ -2,12 +2,12 @@ require('dotenv').config()
 /* eslint-disable @typescript-eslint/camelcase */
 module.exports = {
   siteMetadata: {
-    title: 'Personal Site',
+    title: 'Tengku Hafidz',
     titleTemplate: '%s | Personal Site',
-    description: 'This is a Gatsby starter for personal site that is uses Google Sheets and Google Docs as CMS',
-    author: 'Fidz.Dev',
-    url: 'https://fidz.dev', // No trailing slash allowed!
-    image: '/app-banner.png', // Path to your image you placed in the 'static' folder
+    description: 'The personal site of Tengku Hafidz',
+    author: 'Tengku Hafidz',
+    url: 'https://tengkuhafidz.com', // No trailing slash allowed!
+    image: '/app-banner.jpg', // Path to your image you placed in the 'static' folder
     twitterUsername: 'sohafidz',
   },
   plugins: [
