@@ -4,7 +4,7 @@ import Navbar from './navbar'
 
 const Layout = ({ children }) => (
   <div className="bg-gray-900 text-white">
-    <div className="max-w-xs md:max-w-6xl mx-auto py-4 flex flex-col min-h-screen">
+    <div className="max-w-xs md:max-w-4xl xl:max-w-6xl mx-auto py-4 flex flex-col min-h-screen">
       <Navbar />
       <main className="flex-grow">{children}</main>
       <div>

@@ -14,9 +14,9 @@ const Home = () => {
         <span className="text-blue-400">app developer</span> living in Sunny Singapore.
       </h1>
       <p className="mt-4 text-2xl md:text-3xl  max-w-4xl font-light">
-        Here are some of my recent side projects <span className="md:hidden">👇</span>
+        Here are some of my recent side projects <span className="xl:hidden">👇</span>
       </p>
-      <div className="grid md:grid-cols-3 gap-6 pt-8 pb-4">
+      <div className="grid xl:grid-cols-3 gap-6 pt-8 pb-4">
         <div
           className="p-6 hover:bg-blue-800 rounded-lg bg-blue-900 cursor-pointer"
           onClick={() => handleClick('https://websheets.co')}
