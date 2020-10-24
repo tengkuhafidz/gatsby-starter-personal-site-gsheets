@@ -1,4 +1,4 @@
-# Gatsby-Starter-Personal-Site-GDocs
+# Gatsby-Starter-Personal-Site-GSheets
 
 This is a Gatsby starter for personal site that is uses Google Sheets as CMS
 
