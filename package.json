@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-personal-site-gdocs",
   "private": true,
-  "description": "This is a Gatsby starter for personal site that is uses Google Sheets and Google Docs as CMS",
+  "description": "This is a Gatsby starter for personal site that is uses Google Sheets as CMS",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
