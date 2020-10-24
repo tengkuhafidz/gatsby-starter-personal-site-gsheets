@@ -4,6 +4,6 @@ export interface Project {
   description: string
   type: string
   status: string
-  isFeatured: string
+  featured: string
   url: string
 }
