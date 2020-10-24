@@ -1,6 +1,6 @@
 # Gatsby-Starter-Personal-Site-GDocs
 
-This is a Gatsby starter for personal site that is uses Google Sheets and Google Docs as CMS
+This is a Gatsby starter for personal site that is uses Google Sheets as CMS
 
 I have also configured fundamentals setup and configurations, such as:
 
